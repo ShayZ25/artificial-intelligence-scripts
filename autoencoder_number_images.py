@@ -1,8 +1,6 @@
 from MyClasses.AutoencoderClasses import MnistAutoencoder
 from keras.datasets import mnist
 from matplotlib.pyplot import imshow, figure, subplot, gray, show
-from numpy import prod
-
 
 model = MnistAutoencoder()
 model.compile(optimizer= 'adam', loss = 'binary_crossentropy')
